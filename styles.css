@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* timer stylings */
+
+.timer-overall-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.timer {
+    width: 90%;
+    background-color: lightgrey;
+    margin: 10px 0;
+    border: solid black 2px;
+}
+
+.timer-title {
+    margin-bottom: auto;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.timer-sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.time-containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.type-indicator {
+    margin-right: 10px;
+}
+.countdown {
+    margin-left: 10px;
+    width: 100px;
+}
+
+.countdown, .timer-title {
+    background-color: transparent;
+    border: none;
+    font-size: 1.875em;
+    font-family: inherit;
+    text-align: center;
+}
+
+.delete-timer, #add-more-timers {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: solid 2px black;
+}
+
+/* other elements */
+
+#add-more-timers {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
